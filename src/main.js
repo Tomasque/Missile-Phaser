@@ -1,3 +1,13 @@
+// Tomas Hickman, Chasing Cars, 4/14/2022, 4 or 5 hours
+// 60 Changed Theme/UI/Sounds to Dogs Chasing Cars
+// 30 Added simulatnious 2 players (and gave them each a score)
+// 05 Allowed player to control the dog after "firing"
+// 05 Created a delay at the start during which a race buzzer beeps ("beep, beep, beep, beeeep")
+// 
+// Sorry for not asking for confirmation on the last one - it being custom - but it can't be worth less than 5 points, and I was too tired to bother
+//
+// Sound effects are from zapsplat.com
+
 let config = {
     type: Phaser.CANVAS,
     width: 640,
