@@ -26,8 +26,8 @@ class Menu extends Phaser.Scene {
         }
 
         this.add.text(game.config.width/2, game.config.height/2 - ( borderUISize + borderPadding)*2, 'CHASING CARS', menuConfig).setOrigin(0.5);
-        this.add.text(game.config.width/2,game.config.height/2 - borderUISize - borderPadding, 'Player 1: Use A and D to move and W to fire', menuConfig).setOrigin(0.5);
-        this.add.text(game.config.width/2,game.config.height/2, 'Player 2: Use ← and → to move and ↑ to fire', menuConfig).setOrigin(0.5);
+        this.add.text(game.config.width/2,game.config.height/2 - borderUISize - borderPadding, 'Player 1: Use A and D to move and W to chase', menuConfig).setOrigin(0.5);
+        this.add.text(game.config.width/2,game.config.height/2, 'Player 2: Use ← and → to move and ↑ to chase', menuConfig).setOrigin(0.5);
         menuConfig.backgroundColor = '#ffffbf';
         menuConfig.color = '#000';
         this.add.text(game.config.width/2, game.config.height/2 + borderUISize + borderPadding, 'Press ← for Novice or → for Expert', menuConfig).setOrigin(0.5);
